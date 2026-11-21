@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Открытка</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100svh;
+      display: grid;
+      place-items: center;
+      padding: 1.25rem;
+      background: radial-gradient(ellipse at top, #294e40, #102c25 75%);
+      color: #243b31;
+    }
+    main {
+      width: min(100%, 42rem);
+      padding: clamp(2rem, 8vw, 5.5rem);
+      border: 0.45rem double #b88e56;
+      background: #fff8e9;
+      box-shadow: 0 1.5rem 4rem #081c16aa;
+      text-align: center;
+    }
+    .ornament { color: #886339; font-size: 1.75rem; }
+    h1 {
+      margin: 0.45em 0;
+      font: 400 clamp(2rem, 8vw, 4rem)/1.1 Georgia, serif;
+      overflow-wrap: anywhere;
+    }
+    p {
+      margin: 1.25rem 0 0;
+      font: 1.125rem/1.65 Georgia, serif;
+      overflow-wrap: anywhere;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="ornament" aria-hidden="true">✦</div>
+    <!-- Замените заголовок и абзац своим поздравлением. -->
+    <h1>Поздравление</h1>
+    <p>Здесь будет ваш текст.</p>
+  </main>
+</body>
+</html>
